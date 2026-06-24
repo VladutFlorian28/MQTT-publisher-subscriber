@@ -1,0 +1,15 @@
+﻿  Validating sources
+  Copying sources remotely to 'localhost'
+  Validating architecture
+  Validating architecture
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.targets(201,5): warning : Current project architecture 'ARM' is incompatible with the remote system architecture 'x64' ('x86_64'). Please switch the project architecture to 'x64' in Configuration Manager. If you are cross-compiling you can ignore this warning.
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  Linking objects
+  ProiectMqttRaspberry.vcxproj -> C:\Users\vladu\Desktop\proiect_albita_c\ProiectMqttRaspberry\ProiectMqttRaspberry\bin\ARM\Debug\ProiectMqttRaspberry.out
+  Invoking 'gpio export 17 out', working directory: '/home/florin/projects/ProiectMqttRaspberry/'
+  gpio: GPIO Sysfs Interface for Userspace is deprecated (https://www.kernel.org/doc/Documentation/gpio/sysfs.txt).
+   Function is now useless and empty.
+  
+  

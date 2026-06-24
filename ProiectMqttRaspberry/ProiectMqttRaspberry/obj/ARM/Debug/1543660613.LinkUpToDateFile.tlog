@@ -1,0 +1,1 @@
+cd /home/florin/projects/ProiectMqttRaspberry/; g++ -o "/home/florin/projects/ProiectMqttRaspberry/bin/ARM/Debug/ProiectMqttRaspberry.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/florin/projects/ProiectMqttRaspberry/obj/ARM/Debug/main.o -l"paho-mqtt3c" -lwiringPi
