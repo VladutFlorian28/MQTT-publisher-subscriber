@@ -1,0 +1,1 @@
+cd /home/florin/projects/florinPublisher/; g++ -o "/home/florin/projects/florinPublisher/bin/ARM/Debug/florinPublisher.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/florin/projects/florinPublisher/obj/ARM/Debug/main.o -lwiringPi -l"paho-mqtt3c"

@@ -1,0 +1,21 @@
+﻿  Validating sources
+  Copying sources remotely to 'localhost'
+  Validating architecture
+  Validating architecture
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.targets(201,5): warning : Current project architecture 'ARM' is incompatible with the remote system architecture 'x64' ('x86_64'). Please switch the project architecture to 'x64' in Configuration Manager. If you are cross-compiling you can ignore this warning.
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\main.cpp(31,55): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\main.cpp(31,55): warning :    31 |         MQTTClient_publish(client, TOPIC, mesaj.length(), (void*)mesaj.c_str(), 1, 0, NULL);
+C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\main.cpp(31,55): warning :       |                                           ~~~~~~~~~~~~^~
+C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\main.cpp(36,24): warning : conversion from ‘float’ to ‘__useconds_t’ {aka ‘unsigned int’} may change value [-Wfloat-conversion]
+C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\main.cpp(36,24): warning :    36 |         usleep(secunde * 1000000);
+C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\main.cpp(36,24): warning :       |                ~~~~~~~~^~~~~~~~~
+  Linking objects
+  florinPublisher.vcxproj -> C:\Users\vladu\Desktop\proiect_albita_c\florinPublisher\florinPublisher\bin\ARM\Debug\florinPublisher.out
+  Invoking 'gpio export 17 out', working directory: '/home/florin/projects/florinPublisher/'
+  gpio: GPIO Sysfs Interface for Userspace is deprecated (https://www.kernel.org/doc/Documentation/gpio/sysfs.txt).
+   Function is now useless and empty.
+  
+  
